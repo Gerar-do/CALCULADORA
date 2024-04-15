@@ -1,0 +1,105 @@
+#root {
+  width: 100%;
+  font-family: 'Arial', sans-serif;
+  color: #ff6347;
+}
+
+body {
+  background-color: #a09c79;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.box-calculator {
+  width: 35%;
+  height: auto;
+  border-radius: 1rem;
+  background: #fefefe; /* PeachPuff color */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  padding: 2.5rem;
+}
+
+.input input {
+  height: 8rem;
+  width: 85%;
+  border-radius: 10px;
+  background: #dde1e7;
+  box-shadow: inset -5px -5px 9px rgba(255,255,255,0.45), inset 5px 5px 9px rgba(94,104,121,0.3);
+  border: 0;
+  color: rgb(0, 0, 0);
+  font-size: 3rem;
+  padding: 0 30px;
+  }
+  
+.input input:focus {
+  outline: none;
+  background: #dde1e7;
+  box-shadow: inset -5px -5px 9px rgba(255,255,255,0.45), inset 5px 5px 9px rgba(94,104,121,0.3);
+}
+  
+.buttons button {
+  cursor: pointer;
+  height: 5rem;
+  width: 6.4rem;
+  border: 0;
+  font-size: 2.0rem;
+  border-radius: .5rem;
+  background: #1b1411; /* LightSalmon color */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  color: #e4dbda; /* Coral color */
+}
+  
+  .buttons button:focus {
+    background: #dde1e7;
+    box-shadow: inset -5px -5px 9px rgba(255,255,255,0.45), inset 5px 5px 9px rgba(94,104,121,0.3);
+  }
+  
+  .buttons {
+    padding-top: 1.875rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  .btn-equals{
+    font-size: 70px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #f23737;
+  }
+
+.conatiner-results{
+  display: flex;
+  color: orange !important;
+}
+
+  .estiloImpresion{
+    display: flex;
+    justify-content: justify;
+    align-items: justify;
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: black;
+  }
+
+  .containerArbol{
+    font-size: 1rem;
+  }
+
+  .tituloOperaciones{
+    font-size: 3rem;
+    color: #302828;
+    padding: 0 2rem ;
+    margin: 2 4rem;
+  }
+
+  .titulo-calculadora {
+    font-size: 2.5rem;
+    color: #6b6969; /* Coral color */
+    margin-bottom: 1.5rem;
+  }
+  
